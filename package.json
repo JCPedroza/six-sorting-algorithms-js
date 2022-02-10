@@ -1,0 +1,30 @@
+{
+  "name": "six-sorting-algorithms-js",
+  "version": "0.0.1",
+  "description": "Six sorting algorithms implemented in JS",
+  "main": "sorting.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && mocha test.js"
+  },
+  "keywords": [
+    "javascript",
+    "algorithms",
+    "sorting",
+    "testing"
+  ],
+  "author": "JCPedroza",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0",
+    "standard": "^16.0.4"
+  },
+  "standard": {
+    "envs": [
+      "mocha"
+    ]
+  }
+}
